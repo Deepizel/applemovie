@@ -3,7 +3,6 @@
   padding: 0px;
   background-color: #0f0101;
 }
-
 .sidebarsection {
   height: 100vh;
   width: 100px;
@@ -51,6 +50,7 @@
   transition: all 1s ease-out;
   display: block;
   background: rgba(102, 161, 216, 0.22);
+  width: 100%;
 }
 .rezise {
     width: 40px;
@@ -80,17 +80,20 @@
   width: 100%;
     border-right: 2px solid rgba(196, 196, 196, 0.25)
 }
-
+.topsctn{
+  display: flex;
+  justify-content:space-around;
+}
 .batcard{
-    height: 200px;
-    width: 388px;
+    height: 10rem;
+    width: 20rem;
     margin-left: 40px;
 }
 
 .dunecard{
-    height: 200px;
-    width: 300px;
-    margin-left: 20px;
+    height: 10rem;
+    width: 15rem;
+    margin-left: px;
 }
 
 .batcard:hover{
@@ -106,11 +109,11 @@
 }
 
 .revu{
-  height:10rem;
+  height:8rem;
   width: 14rem;
 }
 .revu1{
-  height:11rem;
+  height:9rem;
   width: 14rem;
   padding: 10px;
 }
@@ -118,14 +121,58 @@
   height:16rem;
   width: 11rem;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .card1{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .card2{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .card2 a {
-  margin-left: 30px;
+  margin-left: 8rem;
+  color: #0f0101;
+  text-decoration: none;
+}
+.card2 a:hover{
+  color: blue;
+}
+.playbtn{
+  height: 20px;
+}
+
+.mediasctn{
+  margin-top: 20px;
+}
+.mediasctn ul{
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.mediasctn ul li{
+  margin-top: 12px;
+  color: rgba(31, 30, 30, 0.4);
+}
+
+.mediasctn ul li:hover{
+  text-decoration: underline;
+}
+.genre{
+   margin-top: 20px;
+}
+.genre h5{
+  margin-left: 20px;
+}
+.genre ul{
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.genre ul li{
+  margin-top: 12px;
+  color: rgba(31, 30, 30, 0.4);
+}
+.genre ul li:hover{
+ background-color: rgba(102, 161, 216, 0.22);
 }
