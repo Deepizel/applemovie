@@ -1,9 +1,18 @@
-*body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #0f0101;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+.mainsection {
+  background-color: grey;
+  padding: 5px;
+}
+.maincontainer {
+  border-radius: 20px;
+  background-color: white;
+  /* margin: 20px 0px 20px 0px; */
+  padding: 20px;
+}
 .sidebarsection {
   height: 100vh;
   width: 100px;
@@ -11,7 +20,6 @@
   border-top-left-radius: 20px solid red;
   background-color: sidebarsection;
   border-right: 2px solid rgba(196, 196, 196, 0.25);
-;
 }
 .userimg {
   margin-top: 15px;
@@ -51,56 +59,219 @@
   transition: all 1s ease-out;
   display: block;
   background: rgba(102, 161, 216, 0.22);
+  width: 100%;
 }
 .rezise {
-    width: 40px;
-    height: 4 0px;
+  width: 40px;
+  height: 4 0px;
 }
 
-.searchbar{
-    margin-top: 80px;
-    margin-left: 40px;
+.searchbar {
+  margin-top: 25px;
+  margin-left: 40px;
 }
 
-.searchbar input{
-    height: 30px;
-    padding: 10px;
-    margin-left: 10px;
-    background-color: aliceblue;
-    border-radius: 2px;
+.searchbar input {
+  height: 35px;
+  width: 20rem;
+  padding: 10px;
+  margin-left: 4rem;
+  background-color: aliceblue;
+  border-radius: 2px;
+  border: none;
+  outline: none;
 }
 
-.searchbar img{
-    padding: 10px;
-    margin-left: 10px;
+.searchbar img {
+  padding: 10px;
+  margin-left: 8rem;
 }
 
-.bodycontainer{
-    height: 100vh;
+.bodycontainer {
+  height: 100vh;
   width: 100%;
-    border-right: 2px solid rgba(196, 196, 196, 0.25)
+  border-right: 2px solid rgba(196, 196, 196, 0.25);
+}
+.topsctn {
+  display: flex;
+  justify-content: space-around;
+}
+.batcard {
+  height: 10rem;
+  width: 22rem;
+  margin-left: 40px;
 }
 
-.batcard{
-    height: 200px;
-    width: 388px;
-    margin-left: 40px;
+.dunecard {
+  height: 10rem;
+  width: 15rem;
+  margin-left: px;
 }
 
-.dunecard{
-    height: 200px;
-    width: 300px;
-    margin-left: 20px;
-}
-
-.batcard:hover{
-    transform: scale(1.07);
+.batcard:hover {
+  transform: scale(1.07);
   transition: all 1s ease-out;
   display: block;
 }
 
-.dunecard:hover{
-    transform: scale(1.07);
+.dunecard:hover {
+  transform: scale(1.07);
   transition: all 1s ease-out;
   display: block;
+}
+
+.revu {
+  height: 8rem;
+  width: 14rem;
+}
+.revu1 {
+  height: 9rem;
+  width: 14rem;
+  padding: 10px;
+}
+.revu2 {
+  height: 16rem;
+  width: 11rem;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.revu2:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+  display: block;
+}
+
+.revu1:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+  display: block;
+}
+
+.revu:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+  display: block;
+}
+.card1 {
+  margin-top: 80px;
+}
+.card2 {
+  margin-top: 80px;
+}
+.card2 a {
+  margin-left: 8rem;
+  color: #0f0101;
+  text-decoration: none;
+}
+.card2 a:hover {
+  color: blue;
+}
+.playbtn {
+  height: 20px;
+}
+
+.mediasctn {
+  margin-top: 20px;
+}
+.mediasctn ul {
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.mediasctn ul li {
+  margin-top: 12px;
+  color: rgba(31, 30, 30, 0.4);
+}
+
+.mediasctn ul li:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+  display: block;
+}
+.genre {
+  margin-top: 20px;
+}
+.genre h5 {
+  margin-left: 20px;
+}
+.genre ul {
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+.genre ul li {
+  margin-top: 12px;
+  color: rgba(31, 30, 30, 0.4);
+}
+.genre ul li:hover {
+  /* background-color: rgba(102, 161, 216, 0.22); */
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+  display: block;
+}
+
+.player1 {
+  display: flex;
+  position: absolute;
+  left: 14%;
+  top: 39%;
+  color: white;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.player1 img {
+  margin-left: 13rem;
+  margin-top: 20px;
+}
+
+.player2 {
+  display: flex;
+  position: absolute;
+  left: 53%;
+  top: 39%;
+  color: white;
+}
+.player2 img {
+  margin-left: 9rem;
+  margin-top: 20px;
+}
+
+.player3 {
+  display: flex;
+  position: absolute;
+  left: 13%;
+  top: 79%;
+  color: white;
+}
+
+.player3 img {
+  margin-left: 6rem;
+  margin-top: 20px;
+}
+.player4 {
+  display: flex;
+  position: absolute;
+  left: 36%;
+  top: 79%;
+  color: white;
+}
+.player4 img {
+  margin-left: 6rem;
+  margin-top: 20px;
+}
+
+.player5 {
+  display: flex;
+  position: absolute;
+  left: 59%;
+  top: 83%;
+  color: white;
+}
+
+.player5 img {
+  margin-left: 4rem;
+  margin-top: 20px;
 }
