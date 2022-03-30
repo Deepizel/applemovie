@@ -58,7 +58,7 @@
 }
 
 .searchbar{
-    margin-top: 80px;
+    margin-top: 25px;
     margin-left: 40px;
 }
 
@@ -103,4 +103,29 @@
     transform: scale(1.07);
   transition: all 1s ease-out;
   display: block;
+}
+
+.revu{
+  height:10rem;
+  width: 14rem;
+}
+.revu1{
+  height:11rem;
+  width: 14rem;
+  padding: 10px;
+}
+.revu2{
+  height:16rem;
+  width: 11rem;
+  padding: 10px;
+}
+
+.card1{
+  margin-top: 40px;
+}
+.card2{
+  margin-top: 40px;
+}
+.card2 a {
+  margin-left: 30px;
 }
