@@ -47,6 +47,8 @@ body {
   margin-top: 50px;
   list-style-type: none;
   transition: ease-out;
+  margin-right: 30px;
+  display: block;
 }
 
 .switchuser ul li {
@@ -63,7 +65,7 @@ body {
 }
 .rezise {
   width: 40px;
-  height: 4 0px;
+  height: 40px;
 }
 
 .searchbar {
@@ -72,12 +74,12 @@ body {
 }
 
 .searchbar input {
-  height: 35px;
+  height: 40px;
   width: 20rem;
   padding: 10px;
   margin-left: 4rem;
   background-color: aliceblue;
-  border-radius: 2px;
+  border-radius: 20px;
   border: none;
   outline: none;
 }
@@ -85,6 +87,7 @@ body {
 .searchbar img {
   padding: 10px;
   margin-left: 8rem;
+  border-radius: 20px;
 }
 
 .bodycontainer {
@@ -105,7 +108,6 @@ body {
 .dunecard {
   height: 10rem;
   width: 15rem;
-  margin-left: px;
 }
 
 .batcard:hover {
@@ -123,6 +125,7 @@ body {
 .revu {
   height: 8rem;
   width: 14rem;
+  margin-left: 10px;
 }
 .revu1 {
   height: 9rem;
@@ -156,6 +159,10 @@ body {
 .card1 {
   margin-top: 80px;
 }
+
+.card1 h5{
+  margin-left: 10px;
+}
 .card2 {
   margin-top: 80px;
 }
@@ -185,7 +192,7 @@ body {
 }
 
 .mediasctn ul li:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   transform: scale(1.2);
   transition: all 1s ease-out;
   display: block;
@@ -216,7 +223,7 @@ body {
   display: flex;
   position: absolute;
   left: 14%;
-  top: 37%;
+  top: 39%;
   color: white;
   /* display: flex;
   justify-content: space-between; */
@@ -231,7 +238,7 @@ body {
   display: flex;
   position: absolute;
   left: 53%;
-  top: 37%;
+  top: 39%;
   color: white;
 }
 .player2 img {
@@ -243,7 +250,7 @@ body {
   display: flex;
   position: absolute;
   left: 13%;
-  top: 74%;
+  top: 79%;
   color: white;
 }
 
@@ -255,7 +262,7 @@ body {
   display: flex;
   position: absolute;
   left: 36%;
-  top: 74%;
+  top: 79%;
   color: white;
 }
 .player4 img {
@@ -267,11 +274,15 @@ body {
   display: flex;
   position: absolute;
   left: 59%;
-  top: 78%;
+  top: 82%;
   color: white;
 }
 
 .player5 img {
   margin-left: 4rem;
+  margin-top: 20px;
+}
+
+.addbtn{
   margin-top: 20px;
 }
