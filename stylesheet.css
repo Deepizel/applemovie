@@ -223,7 +223,7 @@ body {
   display: flex;
   position: absolute;
   left: 14%;
-  top: 39%;
+  top: 37%;
   color: white;
   /* display: flex;
   justify-content: space-between; */
@@ -238,7 +238,7 @@ body {
   display: flex;
   position: absolute;
   left: 53%;
-  top: 39%;
+  top: 37%;
   color: white;
 }
 .player2 img {
@@ -250,7 +250,7 @@ body {
   display: flex;
   position: absolute;
   left: 13%;
-  top: 79%;
+  top: 74%;
   color: white;
 }
 
@@ -262,7 +262,7 @@ body {
   display: flex;
   position: absolute;
   left: 36%;
-  top: 79%;
+  top: 74%;
   color: white;
 }
 .player4 img {
@@ -274,7 +274,7 @@ body {
   display: flex;
   position: absolute;
   left: 59%;
-  top: 82%;
+  top: 78%;
   color: white;
 }
 
